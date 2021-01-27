@@ -1,0 +1,45 @@
+#grid-container {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-auto-rows: minmax(100px, 100px);
+  }
+  #header {
+    grid-column: 1/3;
+    grid-row: 1;
+    border: solid;
+    border-color: rgba(128, 128, 128, 0.5);
+    border-width: 2px;
+  }
+  #image {
+    grid-column: 1;
+    grid-row: 2/8;
+    border: solid;
+    border-color: grey;
+    border-width: 1px;
+    border-top: none;
+    border-right: none;
+    border-bottom: none;
+  }
+  #cart {
+    grid-column: 2;
+    grid-row: 2/21;
+    border: solid;
+    border-color: grey;
+    border-width: 1px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+  }
+  #reviews {
+    grid-column: 1;
+    grid-row: 8/21;
+    border: solid;
+    border-color: grey;
+    border-width: 1px;
+    border-top: none;
+    border-right: none;
+  }
+  #related {
+    grid-column: 1/3;
+    grid-row: 21/25;
+  }
